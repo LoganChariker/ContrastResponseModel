@@ -1,7 +1,11 @@
 0 - Introduction
 
 
-This package consists of Java source code and Matlab scripts, which together can be used to simulate the macaque V1 model.  All Java code is to be compiled in Java version 7, the latest version of Java compatible with Matlab (the latest version being 2018b at the time of writing).
+This package consists of Java source code and Matlab scripts, which together can be used to simulate the macaque V1 model from 
+
+Chariker, Logan & Shapley, Robert & Young, Lai-Sang. (2020). Contrast response in a comprehensive network model of macaque V1. Journal of Vision. 20. 16. 10.1167/jov.20.4.16.
+
+All Java code is to be compiled in Java version 7, the latest version of Java compatible with Matlab (the latest version being 2018b at the time of writing).
 
 The primary file containing the model definition is Network.java.  The Java class 'Network' defined there contains fields for model parameters and state, methods for building the model, and methods for evolving model state in time.  A few other helper Java classes are also included.
 
